@@ -18,8 +18,8 @@ def menu():
                 x = str(input('\033[1;92mUsername \033[1;93m: '))
                 print("")
                 e = getpass('\033[1;92mPassword \033[1;93m: ')
-                print ("")
-                if x=="DarJuni" and e=="Hack@Juni":
+                print (""),
+                if x=="Darjuni" and e=="hack@juni":
                    print('wait...')
                    time.sleep(1)
                    os.system('clear')
